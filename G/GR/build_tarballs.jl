@@ -12,6 +12,8 @@ sources = [
                "7a135443118725ca944ea3fdf01bd805f6ac65529b98c0463884bfce8a66f274", "gr.js")
 ]
 
+version = v"0.57.4" # <--- Increase version number to be able to build for aarch64-apple-darwin
+
 # Bash recipe for building across all platforms
 script = raw"""
 cd $WORKSPACE/srcdir/gr
